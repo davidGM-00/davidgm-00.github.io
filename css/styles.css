@@ -11073,3 +11073,14 @@ html {
     background-color: #ffffff;
     padding: 1rem;
 }
+/* Separación entre portfolio items en móvil */
+@media (max-width: 767px) {
+  .portfolio .portfolio-item {
+    margin-bottom: 1.5rem;
+  }
+
+  .portfolio .col-md-6 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
